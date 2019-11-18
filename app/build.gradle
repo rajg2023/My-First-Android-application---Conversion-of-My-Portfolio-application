@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    
+
+
+    defaultConfig {
+        applicationId "com.example.crewr.myandroidapplication.app"
+        minSdkVersion 20
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+
+    }
+
+    buildTypes {
+       release {
+           minifyEnabled false
+           proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+       }
+    }
+
+}
+
+dependencies {
+    implementation project(':login')
+    implementation project(':base')
+    implementation files('D:\\Final_Project5\\MyRegisterationProject\\WebContent\\WEB-INF\\lib\\postgresql-42.1.1.jar')
+}

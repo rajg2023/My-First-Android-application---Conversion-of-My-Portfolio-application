@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Me"
+                android:textAlignment="center"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:paddingTop="10dp"
+                android:text="  I am a Technical Consultant having more than 2 years of experience in developing, testing and supporting multiple language, OS, domain desktop and web applications. I am also a Java Bootcamp graduate from Cincy Code IT, Max Technical Training located in Mason Ohio who loves to write code to build great products and help businesses succeed with their goals. Currently seeking a position in the Cincinnati KY area for a Junior Java developer, Analyst and Automation Testing. I want to learn more about good design, clean code, proper integration and testing and make sure it is bug free as I am seeing its importance more then ever in today's apps, web sites and products. Able to work in a challenging environment that would best utilize my technical and interpersonal skills and benefit from my background in the field of data analysis, debugging, code validation and software quality assurance."
+                android:textAlignment="gravity"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_family" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Technical Skills"
+                android:textAlignment="center"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="
+
+• Develop web applications using Java, Servlets, JSP, JDBC, JavaScript, HTML and CSS in NetBeans and Eclipse.\n
+
+• Good knowledge of design, development, implementation and testing of Client/Server and Internet/Intranet applications on Java and Eclipse.\n
+
+• Familiar with Java servlet and appellate, JSP, Java API/Doc, SQL Server, JDBC/Derby, Teradata, MySQL and Github/Gitbash, JavaScript, XML, CSS and HTML.\n
+
+• Experience in working with Agile and Waterfall methodologies, Scrum and Test-Driven Development (TDD).\n
+
+• Experience in using Version Control System-Git and Mercurial repository.\n
+
+• Proficient in using application servers-IIS, Tomcat and WebSphere.\n
+
+• Strong knowledge of Manual Testing, Test Automation and Data Analysis.\n
+
+• Well-versed with testing tools -HP QC, QTP, Selenium, JUnit and Project Management tool Trello and defect management tool Jira.\n
+
+• Strong skills in ETL Testing and wide knowledge in Database Management- MySQL, Teradata and SQL.\n
+
+• Ability to focus, work under pressure, prioritize tasks, make decisions and meet tight deadlines.\n
+
+• Good understanding in exception handling, debugging and bug tracking by which the whole picture of application runtime can be seen and analyzed more efficiently.\n
+
+• Solid knowledge of protocols TCP/IP, UDP, HTTP/S and FTP.\n
+
+• Knowledge of Healthcare, Banking and Retail Domains.\n
+
+"
+                android:textAlignment="inherit"
+                android:textSize="18sp" />
+
+            <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/constraintLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity"
+                tools:layout_editor_absoluteY="81dp">
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/constraintLayout4"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0"
+                    tools:context=".MainActivity">
+
+
+                    <TableLayout
+                        android:id="@+id/tblLayout10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="206dp"
+                        tools:layout_editor_absoluteY="357dp">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <TableRow
+                            android:id="@+id/tblRow10"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </TableLayout>
+
+
+                </android.support.constraint.ConstraintLayout>
+
+                <TableLayout
+                    android:id="@+id/tblLayout11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="205dp"
+                    android:layout_marginBottom="125dp"
+                    app:layout_constraintBottom_toTopOf="@+id/textView212"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView11111"
+                    app:layout_constraintTop_toBottomOf="@+id/textView119"
+                    tools:ignore="UnknownId">
+
+
+                </TableLayout>
+
+
+                <TextView
+                    android:id="@+id/textView1118"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginBottom="9dp"
+                    android:text=" My Top 5 Skills "
+                    android:textAlignment="center"
+                    android:textSize="36sp"
+                    app:layout_constraintBottom_toTopOf="@+id/textView16"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="24dp"
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:progress="75"
+                    android:progressTint="#FFEB3B"
+                    android:scaleY="4"
+                    app:layout_constraintBottom_toTopOf="@+id/textView17"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar2"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="9dp"
+                    android:layout_marginBottom="114dp"
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:progress="90"
+                    android:progressTint="#5E575E"
+                    android:scaleY="4"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/progressBar3" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar3"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="9dp"
+                    android:layout_marginBottom="84dp"
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:progress="89"
+                    android:progressTint="#F44336"
+                    android:scaleY="4"
+                    app:layout_constraintBottom_toTopOf="@+id/progressBar2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/progressBar4" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar4"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="346dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginBottom="63dp"
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:progress="85"
+                    android:progressTint="#4CAF50"
+                    android:scaleY="4"
+                    app:layout_constraintBottom_toTopOf="@+id/progressBar3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar5"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_weight="12"
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:progress="80"
+                    android:progressTint="#2196F3"
+                    android:scaleY="4"
+                    app:layout_constraintBottom_toTopOf="@+id/textView18"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="392dp"
+                    android:layout_height="61dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:text="Programming and Design (Java, C#, HTML5, CSS3, JavaScript and Servlets, etc.)"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toTopOf="@+id/progressBar"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView1118" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="386dp"
+                    android:layout_height="51dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Testing and Analysis(Manual, Automation, Data, ETL, etc.)"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toTopOf="@+id/progressBar5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginEnd="14dp"
+                    android:text="Technical Support Service and Problem Solving"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toTopOf="@+id/progressBar4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/progressBar5" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="0dp"
+                    android:layout_height="39dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="27dp"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginBottom="33dp"
+                    android:text="Customer Support"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/progressBar3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/progressBar4" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="0dp"
+                    android:layout_height="58dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginBottom="6dp"
+                    android:text="Flexibility"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/progressBar2"
+                    app:layout_constraintEnd_toEndOf="@+id/progressBar2"
+                    app:layout_constraintStart_toStartOf="@+id/progressBar2"
+                    app:layout_constraintTop_toBottomOf="@+id/progressBar3" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/constraintLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:context=".MainActivity"
+                tools:layout_editor_absoluteY="81dp">
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/constraintLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0"
+                    tools:context=".MainActivity">
+
+                    <TextView
+                        android:id="@+id/textView118"
+                        android:layout_width="432dp"
+                        android:layout_height="64dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginBottom="6dp"
+                        android:text="OTHER Skills"
+                        android:textAlignment="center"
+                        android:textSize="36sp"
+                        tools:ignore="MissingConstraints"
+                        app:layout_constraintBottom_toTopOf="@+id/textView3"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="83dp"
+                        android:layout_height="56dp"
+                        android:layout_marginBottom="496dp"
+                        android:text="Server:"
+                        android:paddingTop="10dp"
+                        android:textAlignment="inherit"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/textView4"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/textView3" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="306dp"
+                        android:layout_height="73dp"
+                        android:layout_marginTop="360dp"
+                        android:layout_marginEnd="10dp"
+                        android:text="Microsoft Office including Lync, Visio, SharePoint and Outlook, Virtual Machine(VMWare and Virtual Box), CMD and RDP, POS, Back Office, Windows and Linux console/shell, AnyConnect, WinSCP, Putty, Remote Desktop"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toTopOf="@+id/textView11116"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/textView11116"
+                        app:layout_constraintTop_toBottomOf="@+id/tblLayout1"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TableLayout
+                        android:id="@+id/tblLayout1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="206dp"
+                        tools:layout_editor_absoluteY="357dp">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <TableRow
+                            android:id="@+id/tblRow1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </TableLayout>
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="82dp"
+                        android:layout_height="49dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="36dp"
+                        android:layout_marginEnd="315dp"
+                        android:text="Software:"
+                        android:textAlignment="inherit"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="311dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="36dp"
+                        android:layout_marginEnd="8dp"
+                        android:text=" 	HP QC/QTP, Selenium, Trello, Confluence and Jira, Slack, Eclipse,IntelliJ, Visual Studio and Gitbash."
+                        android:textAlignment="viewStart"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.6"
+                        app:layout_constraintStart_toEndOf="@+id/textView3"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView111115"
+                        android:layout_width="84dp"
+                        android:layout_height="68dp"
+                        android:layout_marginBottom="310dp"
+                        android:text="Other Application:"
+                        android:textAlignment="inherit"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.03"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView1"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <TextView
+                        android:id="@+id/textView11116"
+                        android:layout_width="306dp"
+                        android:layout_height="61dp"
+                        android:layout_marginEnd="11dp"
+                        android:layout_marginBottom="248dp"
+                        android:text="Motherboards, PSU, CPUs, RAM, Display Devices and Adapter cards, IO pannel, Cables,HHD, SSD, Optical Drive, Printers and Scanners."
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+                </android.support.constraint.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/textView111117"
+                    android:layout_width="76dp"
+                    android:layout_height="41dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="51dp"
+                    android:text="Language:"
+                    android:textAlignment="inherit"
+                    app:layout_constraintBottom_toTopOf="@+id/textView13"
+                    app:layout_constraintEnd_toStartOf="@+id/textView8"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="307dp"
+                    android:layout_height="49dp"
+                    android:layout_marginEnd="9dp"
+                    android:layout_marginBottom="51dp"
+                    android:text="Java, C#, .NET, XML, JavaScript, HTML and CSS."
+                    android:textAlignment="viewStart"
+                    app:layout_constraintBottom_toTopOf="@+id/textView9"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView111117"
+                    app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="307dp"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="9dp"
+                    android:layout_marginBottom="58dp"
+                    android:text="SQL, Teradata, MySQL and Derby/JDBC , DB2 SQurriel SQL.."
+                    app:layout_constraintBottom_toTopOf="@+id/tblLayout"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView13"
+                    app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="81dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:text="Hardware:"
+                    android:textAlignment="inherit"
+                    app:layout_constraintBottom_toTopOf="@+id/textView21"
+                    app:layout_constraintEnd_toEndOf="@+id/textView11"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/textView21"
+                    app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="83dp"
+                    android:layout_height="63dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="110dp"
+                    android:layout_marginBottom="60dp"
+                    android:text="Repository:"
+                    android:textAlignment="inherit"
+                    app:layout_constraintBottom_toTopOf="@+id/textView10"
+                    app:layout_constraintEnd_toStartOf="@+id/tblLayout"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="306dp"
+                    android:layout_height="57dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:text="Github - GitBash and Mercurial - TortoiseHg"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/textView11"
+                    app:layout_constraintEnd_toEndOf="@+id/textView9"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView10" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="86dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="10dp"
+                    android:text="Database:"
+                    android:textAlignment="inherit"
+                    app:layout_constraintBottom_toTopOf="@+id/textView11"
+                    app:layout_constraintEnd_toStartOf="@+id/textView9"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView111117" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="305dp"
+                    android:layout_height="57dp"
+                    android:layout_marginTop="51dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginBottom="60dp"
+                    android:text="Tomcat, Websphere, Windows Server 12 and SUSE Linux Enterprise Server"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView9"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/textView8"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <TableLayout
+                    android:id="@+id/tblLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="205dp"
+                    android:layout_marginBottom="125dp"
+                    app:layout_constraintBottom_toTopOf="@+id/textView22"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView11"
+                    app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <TableRow
+                        android:id="@+id/tblRow"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="81dp"
+                    android:layout_height="52dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="80dp"
+                    android:text="OS:"
+                    android:textAlignment="inherit"
+                    app:layout_constraintBottom_toTopOf="@+id/textView111117"
+                    app:layout_constraintEnd_toStartOf="@+id/textView20"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="307dp"
+                    android:layout_height="51dp"
+                    android:layout_marginTop="87dp"
+                    android:layout_marginEnd="9dp"
+                    android:text="Windows(XP, 7, 8 and 10), Linux (Suse and Ubuntu), MAC, Android and IOS."
+                    android:textAlignment="viewStart"
+                    app:layout_constraintBottom_toTopOf="@+id/textView8"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView19"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="82dp"
+                    android:layout_height="52dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginBottom="187dp"
+                    android:text="Networking:"
+                    android:textAlignment="inherit"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/textView22"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="305dp"
+                    android:layout_height="61dp"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginBottom="188dp"
+                    android:text="DHCP, Static, IPv4/IPv6, Subnet Mask, SSID, FTP, DNS, MAC, VPN/VLAN, LAN, WAN, WEP, WPA/WPA2, PAN, Cables and Connectors, Crimper, Toner Probe and Punch down tools."
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView21"
+                    app:layout_constraintTop_toBottomOf="@+id/tblLayout" />
+
+
+            </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
